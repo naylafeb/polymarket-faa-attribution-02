@@ -8,7 +8,10 @@ minute.
 
 Model (adapted from the sibling NVIDIA-CEO bounty entry, whose practice
 pinball loss was 0.2546 vs the house baseline's 0.3636 on the same six
-practice cases; the board's best there was 0.241, rank 100 was 0.259):
+practice cases; this entry's practice loss is 0.2638 on those cases --
+the small gap is the price of not forcing the sum to 1.0, which the
+FAA family does not satisfy. The board's best there was 0.241, rank 100
+was 0.259):
   * Median: the last price, pulled by two forces that the practice
     history shows are real.
       - Asymmetric bounce: a rise in the last hour gives most of it
